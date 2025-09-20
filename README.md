@@ -1,26 +1,12 @@
-# Crave-Corner
-Crave Corner is a modern and responsive food discovery web app built with React and Vite. It showcases trending meals, categories, and featured deals through an interactive and engaging UI. Styled with Tailwind CSS, it offers a clean, responsive design that makes exploring delicious food options effortless.
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- **Responsive Design**: Works seamlessly across desktop and mobile.
-- **Dynamic Components**: Modular React components like `Navbar`, `Hero`, `Food`, and `Category`.
-- **Food Data Integration**: Static data stored in `data.jsx` and mapped dynamically into components.
-- **State & Hooks**: 
-  - `useState` to manage dynamic UI states like filtering and selection.
-  - `useEffect` for lifecycle-based actions (such as updating UI when data changes).
-- **Fast Development**: Powered by **Vite** for instant hot-reloads and optimized builds.
+Currently, two official plugins are available:
 
-🛠️ Technologies Used
-- React → For building UI with components.
-- React Hooks:  
-  - useState → To store and manage dynamic states.  
-  - useEffect → For handling lifecycle logic (like filtering food items when state updates).
-- Tailwind CSS → Utility-first CSS for fast, responsive styling.
-- Vite → Next-gen frontend tooling for fast builds and hot reloads.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🚀 Future Improvements
-- Add backend integration for real-time food data.
-- Implement a cart and checkout flow.
-- Add search and filtering with live API data.
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
